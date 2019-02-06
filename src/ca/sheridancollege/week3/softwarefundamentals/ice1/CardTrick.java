@@ -36,7 +36,7 @@ public class CardTrick {
             
            
             magicHand[i] = c;
-             System.out.println("value: "+magicHand[i].getValue()+ magicHand[i].getSuit());
+             
         }
         
         Card userCard = new Card();
@@ -74,7 +74,8 @@ public class CardTrick {
      
           luckyCard.setValue(4);
           luckyCard.setSuit("heart");
-          
+          System.out.println(luckyCard.getValue());
+          System.out.println(luckyCard.getSuit());
            
           
         }
