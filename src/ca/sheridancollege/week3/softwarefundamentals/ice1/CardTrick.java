@@ -14,6 +14,7 @@ import java.util.Scanner;
  * @author Megha
  * Modifier - Humpreet Kaur
  * Student ID - 991516230
+ * final commit
  */
 public class CardTrick {
     
