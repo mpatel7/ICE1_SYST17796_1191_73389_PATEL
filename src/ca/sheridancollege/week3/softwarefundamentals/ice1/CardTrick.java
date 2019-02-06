@@ -12,6 +12,7 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * @author Megha
  * modifier Simarjeet Kaur Id 991513366
  some changes here.
+ * final commit is done.
  */
 import java.util.Scanner;
 public class CardTrick {
