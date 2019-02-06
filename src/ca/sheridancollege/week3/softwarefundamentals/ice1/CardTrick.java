@@ -12,6 +12,7 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * @author Megha
  */
 /*Comment by shweta on git remote repo  to perform fetch operation*/
+/*Final commit to learn commit*/
 import java.util.Scanner;
 public class CardTrick {
     
