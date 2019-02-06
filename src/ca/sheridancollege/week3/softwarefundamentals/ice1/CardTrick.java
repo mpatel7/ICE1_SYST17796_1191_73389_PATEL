@@ -19,6 +19,7 @@ public class CardTrick {
     public static void main(String[] args)
     {
         Card[] magicHand = new Card[7];
+        //Cretaed 2 new arrays.
         Card[] Number=new Card[13];
         Card[] Suit=new Card[4];
        int suit;
