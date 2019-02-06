@@ -10,7 +10,7 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * and then asks the user to pick a card and searches the array of cards
  * for the match to the user's card. To be used as starting code in ICE 1
  * @author Megha
- * modifier Munmun Nandi
+ * modifier - Munmun Nandi
  * Student id - 991103144
  */
 import java.util.Scanner;
