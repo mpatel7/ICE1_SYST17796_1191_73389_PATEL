@@ -12,6 +12,7 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * @author Megha
  * modifier - Munmun Nandi
  * Student id - 991103144
+ * coding is done
  */
 import java.util.Scanner;
 public class CardTrick {
