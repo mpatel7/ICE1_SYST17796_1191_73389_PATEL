@@ -26,7 +26,11 @@ public class Card {
     public String getSuit() {
         return suit;
     }
-
+    public luckyCard() {
+        suit = 1; 
+        value = 7;
+    }
+   
     /**
      * @param suit the suit to set
      */
