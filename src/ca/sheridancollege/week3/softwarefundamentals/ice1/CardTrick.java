@@ -49,6 +49,8 @@ public class CardTrick {
 	    Card luckyCard = new Card();
 	    luckyCard.setValue(12);
 	    luckyCard.setSuit("Diamonds");
+	    
+	    System.out.println("Lucky card's suit: " + luckyCard.getSuit() + "\nLucky card's value: " + luckyCard.getValue());
 	
         // and search magicHand here
         Boolean withinHand = false;
