@@ -11,7 +11,7 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * for the match to the user's card. To be used as starting code in ICE 1
  * @author Megha
  */
-
+/*Comment by shweta on git remote repo  to perform fetch operation*/
 import java.util.Scanner;
 public class CardTrick {
     
