@@ -27,6 +27,7 @@ public class CardTrick {
             //magicHand[i].setSuit(Card.SUITS[3]);
         }
         
+	    /* Replace with hardcoded luckyCard
         //insert code to ask the user for Card value and suit, create their card
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a card value (1-13): ");
@@ -43,12 +44,27 @@ public class CardTrick {
                     break;
                 }
             }
+            }*/
+	    
+	    Card luckyCard = new Card();
+	    luckyCard.setValue(12);
+	    luckyCard.setSuit("Diamonds");
+	
+        // and search magicHand here
+        Boolean withinHand = false;
+	for(Card cardA : magicHand) {
+            if(cardA.getSuit().equalsIgnoreCase(luckyCard.getSuit())){
+                if(cardA.getValue() == luckyCard.getValue()){
+                    withinHand = true;
+                    break;
+                }
             }
+            } 
 	
         //Then report the result here
         if(withinHand){
-            System.out.println("Your card is in the hand!");
-        } else System.out.println("Your card is not in the hand.");
+            System.out.println("The card is in the hand!");
+        } else System.out.println("The card is not in the hand.");
     }
     
 }
